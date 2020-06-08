@@ -4,6 +4,10 @@
 <title>ooo</title>
 </head>
 <body>
-<button>text</button>
+<button onclick="showabc();">text</button>
+<script>
+function showabc(){
+  document.write("I show \"text\"");
+}
 </body>
 
