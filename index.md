@@ -8,7 +8,7 @@
 var body = document.getElementsByTagName("body");
 var abc = body.createElement("button");
 abc.setAttribute("onclick", "show();");
-abc.innerHTML="abc";
+abc.innerHTML="abch";
 
 function show(){
   document.write(" abc lol");
