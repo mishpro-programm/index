@@ -4,27 +4,22 @@ You can use the [editor on GitHub](https://github.com/mishpro-programm/index/edi
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+downMark
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Markdown is a lightweight and easy-to-use syntax for styling your writing.
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+function Obj(speed, hearts, onTap){
+  this.speed = speed;
+  this.hearts = hearts;
+  this.onTap = onTap();
+  this.x = 0;
+  this.y = 0;
+  this.z = 0;
+}
+var DinoTRex = new Obj(1, 5, function(){DinoTRex.y += 3});
+document.write(DinoTRex.hearts);
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
