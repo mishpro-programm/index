@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+
 <head>
-<title>lol</title>
+<title>ooo</title>
 </head>
 <body>
-<button>texf</button>
+<button>text</button>
 </body>
-</html>
+
