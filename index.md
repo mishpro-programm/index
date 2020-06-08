@@ -4,15 +4,6 @@
 <title>lol</title>
 </head>
 <body>
-<script>
-var body = document.getElementsByTagName("body");
-var abc = body.createElement("button");
-abc.setAttribute("onclick", "show();");
-abc.innerHTML="abch";
-
-function show(){
-  document.write(" abc lol");
-}
-</script>
+<button>texf</button>
 </body>
 </html>
